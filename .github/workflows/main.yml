@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Commit Type
-        uses: gsactions/commit-message-checker@v1
+        uses: gsactions/commit-message-checker@v2
         with:
           pattern: '\[[^]]+\] .+$'
           error: '커밋 메시지 첫번째 줄은 [feat]와 같이 말머리를 달고 작성해주세요".'
